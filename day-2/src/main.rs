@@ -97,7 +97,7 @@ fn part2(report: &Vec<i32>) -> bool {
 }
 
 fn main() {
-    // collecting cmd args (b/c why not)
+    // using cmd args (b/c why not)
     let args: Vec<String> = env::args().collect();
     if args.len() < 2 || (args[1] != "--1" && args[1] != "--2") {
         println!("Invalid argument.");
